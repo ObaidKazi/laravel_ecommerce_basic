@@ -10,7 +10,7 @@ Follow these steps to set up the project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/laravel-ecommerce.git
+git clone https://github.com/ObaidKazi/laravel_ecommerce_basic.git
 cd laravel-ecommerce
 ```
 
@@ -56,7 +56,14 @@ If you are using **l5-swagger**, generate the API documentation with:
 php artisan l5-swagger:generate
 ```
 
-### 9. Serve the Application
+### 9. Link Storage
+
+
+```bash
+php artisan storage:link
+```
+
+### 10. Serve the Application
 
 ```bash
 php artisan serve
