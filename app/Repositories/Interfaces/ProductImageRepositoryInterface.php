@@ -11,5 +11,4 @@ interface ProductImageRepositoryInterface
     public function update(ProductImage $productImage, array $data): ProductImage;
     public function delete(ProductImage $productImage): bool;
     public function getByProduct(Product $product);
-    public function setPrimary(ProductImage $productImage): bool;
 }
