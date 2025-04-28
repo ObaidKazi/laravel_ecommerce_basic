@@ -69,4 +69,4 @@ php artisan storage:link
 php artisan serve
 ```
 
-Visit [http://localhost:8000](http://localhost:8000) in your browser to view the application.
+Visit [http://localhost:8000](http://localhost:8000/api/documentation) in your browser to view api docs.
