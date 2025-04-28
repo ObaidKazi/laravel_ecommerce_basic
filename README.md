@@ -69,4 +69,12 @@ php artisan storage:link
 php artisan serve
 ```
 
+### 11. Serve the Application
+
+```bash
+You can import the postman collection into postman and can test it out
+```
+
+or
+
 Visit [http://localhost:8000/api/documentation](http://localhost:8000/api/documentation) in your browser to view api docs.
